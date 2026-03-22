@@ -18,7 +18,7 @@ class Weather:
         return f'[{self.date:%H:%M}] {self.temp}C° ({self.description})'
 
 
-API_KEY: Final[str] = '595a8f44e4023e1849def17ba000b137'
+API_KEY: Final[str] = ''
 BASE_URL: Final[str] = 'https://api.openweathermap.org/data/2.5/forecast'
 
 
